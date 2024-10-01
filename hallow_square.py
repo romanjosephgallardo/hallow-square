@@ -17,15 +17,15 @@ length_n = int(input("Enter the side length of the square: "))
 
 # Loop to generate the square
 # Upper side of the square
-for i in range(length_n - 1):
+for upper in range(length_n):
     print("x", end="")
+    
+print()
 
 # Generate the horizontal side of the square
-for i in range(length_n -1):
-    print("x" + " " * (length_n - 2) + "x")
+for horizontal_sides in range(length_n - 2):
+    print("x" + (" " * (length_n - 2)) + "x")
 
 # Lower side of the square
-for i in range(length_n - 1):
+for lower in range(length_n):
     print("x", end="")
-
-# Generate the hollow square
