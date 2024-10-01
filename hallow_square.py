@@ -13,5 +13,15 @@ xxxxxx
 
 # pseudocode
 # User input for the side length of the square
+length_n = int(input("Enter the side length of the square: "))
+
 # Loop to generate the square
+# Upper side of the square
+for i in range(length_n):
+    print("x", end="")
+    
+# Lower side of the square
+for i in range(length_n):
+    print("x", end="")
+
 # Generate the hollow square
