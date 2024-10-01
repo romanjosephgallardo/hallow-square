@@ -1,17 +1,5 @@
-'''
-Generate a hollow square based on the + integer input side length n.
+# Hallow Square
 
-Enter the side length of the square: 6
-xxxxxx
-x    x
-x    x
-x    x
-x    x
-xxxxxx
-
-'''
-
-# pseudocode
 # User input for the side length of the square
 length_n = int(input("Enter the side length of the square: "))
 
@@ -19,7 +7,7 @@ length_n = int(input("Enter the side length of the square: "))
 # Upper side of the square
 for upper in range(length_n):
     print("x", end="")
-    
+
 print()
 
 # Generate the horizontal side of the square
