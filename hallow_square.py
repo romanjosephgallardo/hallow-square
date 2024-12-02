@@ -17,3 +17,5 @@ def hallow_square(n):
 # User input for the side length of the square
 length_n = int(input("Enter the side length of the square: "))
 hallow_square(length_n) # Call the function
+
+# Arvie is Gay and his pronouns are they/them
